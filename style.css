@@ -109,7 +109,7 @@ span {
    } 
    .headline {
     position: absolute;
-    transform: translate(50%, 40%);
+    transform: translate(30%, 40%);
 }
     .btn{
         position: absolute;
