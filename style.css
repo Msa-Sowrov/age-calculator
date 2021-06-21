@@ -108,8 +108,8 @@ span {
        width: 300px;
    } 
    .headline {
-    padding-top: 44px;
-    padding-left: 123px;
+    position: absolute;
+    transform: translate(50%, 40%);
 }
     .btn{
         position: absolute;
