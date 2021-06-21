@@ -107,6 +107,10 @@ span {
    .headline{
        width: 300px;
    } 
+   .headline {
+    padding-top: 44px;
+    padding-left: 123px;
+}
     .btn{
         position: absolute;
         top: 70px;
