@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.headline{
+    text-align: center;
+    padding-top: 18px;
+}
+.headline span{
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.warpper{
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 400px;
+    width: 40%;
+    min-width: 450px;
+}
+
+.box{
+    margin: center;
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.452);
+    border-radius: 22px;
+    box-shadow: 5px 3px 4px 0px black;
+}
+.box input{
+    padding: 4px 27px;
+    margin: 55px 18px;
+    border-radius: 8px;
+    font-size: x-large;
+}
+
+.btn{
+    padding: 13px 8px;
+    font-size: larger;
+    border-radius: 12px;
+    background: lightblue;
+    cursor: pointer;
+    box-shadow: 1px 2px 0px 0px black;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+
+span {
+    font-size: 50px;
+}
+.output{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top: 86%;
+    left: 50%;
+}
+
+.output div{
+    width: 100px;
+    box-shadow: 5px 3px 4px 0px black;
+
+    place-items: center;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px 43px;
+    /* align-items: center; */
+    border-radius: 9px;
+    background-color: #00000085;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        background-image: url('backgroun.jpg');
+        background-position: 44%;
+        width: 116%;
+        height: 123vh;
+    }
+   
+    .box{
+      width: 290px;
+      height: 120px;
+
+    }
+   .headline{
+       width: 300px;
+   } 
+    .btn{
+        position: absolute;
+        top: 70px;
+        left: 95px;
+        width: 100px;
+        height: 45px;
+        font-size: 15px;
+        border-radius: 9px;
+    }
+    .box input{
+        width: 200px;
+        margin-top: 15px;
+    }
+    .output div{
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+
+  }
